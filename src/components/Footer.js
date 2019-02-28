@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import logo from '../img/logo_white.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import pinterest from '../img/social/pinterest-round.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -49,14 +48,26 @@ const Footer = class extends React.Component {
                 <div className="column is-4">
                 <section>
                   <ul className="menu-list">
+                  <li className="menu-list">Icons made by: </li>
                   <li>
-                    <Link className="navbar-item" to="/blog">
-                      Latest Stories
+                    <Link className="navbar-item" to="https://www.flaticon.com/authors/freepik">
+                      Freepik
                     </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
+                    <Link className="navbar-item" to="https://www.flaticon.com/authors/mynamepong">
+                      mynamepong
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="https://www.flaticon.com/authors/mynamepong">
+                      photo3idea_studio
+                    </Link>
+                  </li>
+                  <li className="menu-list">from: </li>
+                  <li>
+                    <Link className="navbar-item" to="http://www.flaticon.com/">
+                    www.flaticon.com
                     </Link>
                   </li>
                   </ul>
@@ -64,32 +75,24 @@ const Footer = class extends React.Component {
                 </div>
                 <div className="column is-4 social">
                 
-                  <a title="facebook" href="https://facebook.com">
+                  <a title="facebook" href="https://www.facebook.com/Codo-Collaborative-Design-Office-362248647552339/">
                     <img 
                       src={facebook}
                       alt="Facebook"
                       style={{ width: '1em', height: '1em' }}
                     />
                   </a>
-                  <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://www.instagram.com/collaborativedesignoffice/">
                   <img
                   src={instagram}
                   alt="Instagram"
                   style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="pinterest" href="https://pin.it/22htbaxdfltqze">
                   <img
-                  src={vimeo}
-                  alt="Vimeo"
+                  src={pinterest}
+                  alt="Pinterest"
                   style={{ width: '1em', height: '1em' }}
                   />
                 </a>
