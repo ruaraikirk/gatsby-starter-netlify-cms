@@ -3,7 +3,7 @@ templateKey: 'index-page'
 title: 'CoDO - Collaborative Design Office'
 image: /img/home-jumbotron.jpg
 heading: Who we are
-subheading: Melbourne based emerging architectural design practice offering fresh and innovative ideas
+subheading: Emerging architectural design practice in Melbourne offering fresh and innovative ideas
 description: >-
   Our design philosophy is based on the collaboration and interaction with 
   each client and thus our architecture is informed by appropriate responses 
