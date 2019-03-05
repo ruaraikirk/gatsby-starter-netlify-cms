@@ -42,25 +42,25 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                   <li className="menu-list">Icons made by: </li>
                   <li>
-                    <Link className="navbar-item" to="https://www.flaticon.com/authors/freepik">
+                    <a className="navbar-item" href="https://www.flaticon.com/authors/freepik">
                       Freepik
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="https://www.flaticon.com/authors/mynamepong">
+                    <a className="navbar-item" href="https://www.flaticon.com/authors/mynamepong">
                       mynamepong
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="https://www.flaticon.com/authors/mynamepong">
+                    <a className="navbar-item" href="https://www.flaticon.com/authors/mynamepong">
                       photo3idea_studio
-                    </Link>
+                    </a>
                   </li>
                   <li className="menu-list">from: </li>
                   <li>
-                    <Link className="navbar-item" to="http://www.flaticon.com/">
+                    <a className="navbar-item" href="http://www.flaticon.com/">
                     www.flaticon.com
-                    </Link>
+                    </a>
                   </li>
                   </ul>
                 </section>
