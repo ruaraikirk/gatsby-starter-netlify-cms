@@ -1,7 +1,7 @@
 ---
 templateKey: 'index-page'
 title: 'CoDO - Collaborative Design Office'
-image: /img/home-jumbotron.jpg
+image: /img/main_banner.jpg
 heading: Who we are
 subheading: Emerging architectural design practice in Melbourne offering fresh and innovative ideas
 description: >-
